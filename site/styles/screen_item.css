@@ -1,0 +1,268 @@
+/*************************
+ *     Polices
+ *************************/
+
+@font-face {
+    font-family: "Intro rust";
+    src: url("/TW1-2022/devoir/premier-rendu/polices/introrustg-base2line-webfont.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Intro script";
+    src: url("/TW1-2022/devoir/premier-rendu/polices/introscriptr-h2base-webfont.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Intro header";
+    src: url("/TW1-2022/devoir/premier-rendu/polices/introheadr-base-webfont.woff");
+    font-weight: bolder;
+    font-style: normal;
+}
+
+/*************************
+ *     media queries
+ *************************/
+
+@media (max-width: 1300px) {
+    body{
+        width: 900px;
+    }
+    .menu{
+        width: 900px;
+    }
+    .menu .categorie {
+      width: 150px;
+    }
+    main{
+        width: 900px;
+    }
+    main section{
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 5px;
+    }
+    #travaux{
+    margin: 1.3em;
+    display: block;
+    position: absolute;
+    height: 62%;
+    }
+}
+
+@media (min-width: 1300px) {
+    body{
+        width: 1500px;
+    }
+    .menu{
+        width: 1500px;
+    }
+    .menu .categorie {
+      width: 250px;
+    }
+    main{
+        border-left: ridge blue 50px;
+        border-right: groove cornflowerblue 50px;
+        width: 1360px;
+        padding: 20px;
+    }
+    main section{
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+        gap: 10px;
+    }
+    #travaux{
+        margin: 1.3em;
+        display: block;
+        position: absolute;
+        width: 83em;
+        height: 57%;
+        }
+}
+
+/*************************
+ *     élement général
+ *************************/
+
+body{
+    background-color: lightslategray;
+    margin: auto;
+    padding-bottom: 5em;
+    font-family: "Intro header" ;
+}
+
+p{
+    z-index: -1;
+    opacity: 75%;
+    background-color: azure;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+
+/*************************
+ *       Banière
+ *************************/
+
+.banniere {
+    margin: auto;
+    padding-top: 30px;
+    background-image: url(img/paysage_nordique.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 310px;
+    width: 100%;
+  }
+
+.banniere h1{
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: "Intro rust";
+    color: royalblue;
+    text-align: center;
+    text-shadow: black 2px 2px;
+    
+  
+}
+
+
+/*************************
+ *  Menu de navigation
+ *************************/
+
+
+
+.menu {
+    position: fixed;
+    top: 0px;
+    left: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+    
+}
+.menu .categorie{
+    cursor: pointer;
+    font-size: 20px;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 44px;
+}
+.menu .categorie:hover h3{
+    color: #303030;
+    transition: color 1s ease-in;
+}
+
+:target{
+    background-color: blue;
+       
+}
+
+.menu h3,
+.menu a {
+    width: 100%;
+    display: block;
+    padding: 5px 5px;
+    margin: 0;
+    font-size: inherit;
+    color: whitesmoke;
+    text-decoration: none;    
+}
+
+.menu .categorie ul{
+    width: 17%;
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+} 
+.menu .categorie:hover ul {
+    color: #303030;
+    transition: color 3s ease-in;
+    display: block;
+    background-color: lightskyblue;
+}
+.menu .categorie li{
+    border: 2px transparent solid;
+}
+.menu .categorie li:hover{
+    border-color: white;   
+    transition: border-color .5s cubic-bezier(.47,0,.74,.71);
+    
+}
+
+/*************************
+ *       Textes   
+ *************************/
+#slogan{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 28px;
+}
+.text{
+    font-size: 28px;
+}
+
+/*************************
+ *       Main  
+ *************************/
+
+main section{
+    background-color: rgb(101, 115, 129);
+    padding: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    
+}
+.item{
+    margin: 0;
+    padding: 1em;
+    border: 5px dashed lightslategray;
+}
+.item figcaption{
+    margin-top: 0.5em;
+}
+.item img{
+    margin: auto;
+    display: block;
+    width: 90%;
+}
+
+.item img:hover,img:hover~.prix{
+    transform: scale(1.80) translate(0,-35%);
+    transition: transform 2s ease-in-out;  
+}
+
+
+
+/*************************
+ *        Source 
+ *************************/
+.source{
+    border-top: 4px solid black;
+    font-size: 25px;
+
+}
+.source li{
+    padding: 3px 25px;
+    float: left;
+    list-style-position: inside;
+}
+.source a{
+    
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
