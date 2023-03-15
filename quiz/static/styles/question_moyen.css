@@ -1,0 +1,77 @@
+body
+{
+    background-image: url("moyen.jpg");
+    background-position: auto;
+    background-size: 1800px;
+}
+blockquote
+{
+    text-align: right;
+    color: goldenrod;
+    font-size: 40px;
+}
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255, 0, 0, 0.699);
+    text-transform: capitalize;
+}
+
+   
+.niveaux
+{
+    background-color: black;
+    border-radius: 10px;
+    border: 4px #cccccc;
+    text-align: left;
+    font-size: 30px;
+    color: rgb(61, 59, 180);
+}
+.question
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(82, 189, 153);
+    background-color: black;
+    border-radius: 10px;
+    border: 4px #cccccc;
+
+}
+
+#pseudo
+{
+    font-size: 30px;
+    text-align: center;
+    color: forestgreen;
+}
+div
+{
+    font-size: 200px;
+    text-align: center;
+    block-size: 400px;
+}
+.button-container form,
+.button-container form div {
+    display: inline;
+}
+
+.button-container button {
+    display: inline;
+    vertical-align: middle;
+}
+#bouton
+{
+    display: inline-block;
+    background-color: rgb(61, 59, 180);
+    border-radius: 10px;
+    border: 4px #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+
+}

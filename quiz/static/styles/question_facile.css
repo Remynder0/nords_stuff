@@ -1,0 +1,71 @@
+body
+{
+    background-image: url("facile.jpg");
+    background-position: auto;
+}
+blockquote
+{
+    text-align: right;
+    color: goldenrod;
+    font-size: 40px;
+}
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255, 0, 0, 0.699);
+    text-transform: capitalize;
+}
+
+.niveaux
+{
+    background-color: black;
+    border-radius: 10px;
+    border: 4px #cccccc;
+    text-align: left;
+    font-size: 30px;
+    color: olivedrab;
+}
+.question
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(82, 189, 153);
+   
+
+}
+#pseudo
+{
+    font-size: 30px;
+    text-align: center;
+    color: forestgreen;
+}
+div
+{
+    font-size: 200px;
+    text-align: center;
+    block-size: 400px;
+}
+.button-container form,
+.button-container form div {
+    display: inline;
+}
+
+.button-container button {
+    display: inline;
+    vertical-align: middle;
+}
+#bouton
+{
+    display: inline-block;
+    background-color: olivedrab;
+    border-radius: 10px;
+    border: 4px #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+}

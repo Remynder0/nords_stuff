@@ -1,0 +1,27 @@
+body
+
+{
+    background-image: url("win.jpg");
+    background-position: bottom;
+    background-size: 1200px;
+}
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255, 0, 0, 0.699);
+    text-transform: capitalize;
+}
+p
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(55, 253, 187, 0.733);
+}
+
+div
+{
+    font-size: 200px;
+    text-align: center;
+    block-size: 400px;
+}

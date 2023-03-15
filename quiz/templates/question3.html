@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="refresh">
+        <meta charset="utf-8">
+        <title>Gamer test</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/question_moyen.css') }}">
+    </head>
+    <body>
+        <blockquote><b>3/5</b></blockquote>
+        <h1>Gamer test</h1>
+        <u class="niveaux">Niveau: Moyen</u>
+        <hr/>
+        <p class="question"><strong>Jumpman est le premier nom de quel personnage Nintendo ?</strong></p>
+        <div class="button-container">
+            <form  method="post" action="/game_over" >
+                <input id="bouton" type="submit" value="Mega-man">
+            </form>
+            <form  method="post" action="/game_over" >
+                <input id="bouton" type="submit" value="Samus">
+            </form>
+            <form  method="post" action="/question4" >
+                <input id="bouton" type="submit" value="Mario">
+            </form>
+        </div>
+    </body>
+</html>

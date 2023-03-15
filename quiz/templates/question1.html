@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="refresh">
+        <meta charset="utf-8">
+        <title>Gamer test</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/question_facile.css') }}">
+    </head>
+    <body>
+        <blockquote><b>1/5</b></blockquote>
+        <h1>Gamer test</h1>
+        <u class="niveaux">Niveau: Facile</u>
+        <hr/>
+        <p class="question"><strong>En quelle année est sortie la playstation 2 ?</strong></p>
+        <div class="button-container">
+            <form  method="post" action="/question2" >
+                <input id="bouton" type="submit" value="2000">
+            </form>
+            <form  method="post" action="/game_over" >
+                <input id="bouton" type="submit" value="2002">
+            </form>
+            <form  method="post" action="/game_over" >
+                <input id="bouton" type="submit" value="1990">
+            </form>
+        </div>
+
+
+
+    </body>
+</html>
