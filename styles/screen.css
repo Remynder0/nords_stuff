@@ -4,19 +4,19 @@
 
 @font-face {
     font-family: "Intro rust";
-    src: url("/TW1-2022/devoir/premier-rendu/polices/introrustg-base2line-webfont.woff");
+    src: url("../polices/introrustg-base2line-webfont.woff");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Intro script";
-    src: url("/TW1-2022/devoir/premier-rendu/polices/introscriptr-h2base-webfont.woff");
+    src: url("../polices/introscriptr-h2base-webfont.woff");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Intro header";
-    src: url("/TW1-2022/devoir/premier-rendu/polices/introheadr-base-webfont.woff");
+    src: url("../polices/introheadr-base-webfont.woff");
     font-weight: bolder;
     font-style: normal;
 }
