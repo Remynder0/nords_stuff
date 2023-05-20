@@ -85,7 +85,6 @@ body{
 }
 
 p{
-    z-index: -1;
     opacity: 75%;
     background-color: azure;
     margin: auto;
@@ -129,6 +128,7 @@ p{
 
 
 .menu {
+    z-index: 2;
     position: fixed;
     top: 0px;
     left: auto;
